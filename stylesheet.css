@@ -1,0 +1,89 @@
+/*
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````````````````````````````
+===============================================
+
+INTRODUCTION
+
+Making for toyhouse. CSS is interchangable. Currently sourcing different
+types of fonts and the like to make sure I can change this out anytime I want.
+
+Exchangeable things are below.
+
+~~~~~~~~~~~~~~~~~~~~~
+
+FONTS:
+fonts are interchangeable
+
+font-family: 'Great Vibes', cursive;
+font-family: 'M PLUS 1', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+~~~~~~~~~~~~~~~~~~~~~
+
+
+COLORS:
+
+~~ Esokey Themes (?) ~~
+
+.gray-white { color: #F2F0F2; }
+.lavender-blue { color: #605F73; }
+.blue-sky { color: #3B8DBF; }
+.light-orange { color: #F2AF88; }
+.salmon-red { color: #D98977; }
+
+~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````````````````````````````
+===============================================
+
+*/
+
+/** {*/
+/*    border-color: black;*/
+/*    border-style: dashed;*/
+/*    border-width: thin;*/
+/*}*/
+
+body {
+    height: 1200px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 350px repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    background: #f2af88;
+}
+
+#character-title {
+    padding: 0;
+    border-radius: 10px;
+    font-size: 75px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #605F73;
+}
+
+.quotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color:  #f2f0f2;
+    border-radius: 10px;
+    color: #D98977;
+    font-style: italic;
+    margin: auto;
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+
+}
