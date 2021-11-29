@@ -16,9 +16,10 @@ Exchangeable things are below.
 FONTS:
 fonts are interchangeable
 
-font-family: 'Great Vibes', cursive;
-font-family: 'M PLUS 1', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Great Vibes', cursive; - Esokey Font
+font-family: 'M PLUS 1', sans-serif; - spaceous
+font-family: 'Open Sans Condensed', sans-serif; - thin and clumped together
+font-family: 'Nanum Gothic Coding', monospace; - monospace clumped, robotic but not-- Eight, probably
 
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -48,42 +49,110 @@ COLORS:
 /*}*/
 
 body {
-    height: 1200px;
+    background-image: url("https://i.pinimg.com/564x/f1/30/0d/f1300ddc94f73d158a2d55314e054dd4.jpg");
+    background-attachment: fixed;
+    padding: 60px;
+    margin: auto;
+    max-width: 900px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 350px repeat(4, 1fr);
-    grid-template-rows: repeat(4,1fr);
-    background: #f2af88;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 200px);
 }
 
-#character-title {
-    padding: 0;
-    border-radius: 10px;
-    font-size: 75px;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-column-end: 2;
-    font-family: 'Great Vibes', cursive;
+h1, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+    align-items: center;
     color: #605F73;
+    font-size: 20pt;
 }
 
-.quotes {
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*h1*/
+#character-title {
+    padding: 10px;
+    margin: auto;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+    text-align: center;
+    color: #f2f0f2;
+    background-color: #3B8DBF;
+    border-radius: 5px;
+    font-size: 40pt;
+    grid-column-start: 4;
+    grid-row-start: -7;
+    grid-column-end: 6;
+    font-family: 'Great Vibes', cursive;
+}
+
+#basic-asks {
+    font-family: 'M PLUS 1', sans-serif;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 6;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    grid-gap: 1px;
+    flex-direction: column;
+}
+
+#intro-paragraph {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    color: black;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+/* h3 */
+.info-titles {
+    display: block;
+    grid-column-start: 2;
+}
+
+/*div*/
+.box {
+    padding: 20px;
     grid-column-start: 2;
     grid-column-end: 6;
-    font-family: 'Open Sans Condensed', sans-serif;
+    grid-gap: 10px;
+    display: grid;
     background-color:  #f2f0f2;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: black;
+    border-width: 4px;
     color: #D98977;
+}
+
+/*blockquote*/
+.quotes {
+    color: #605F73;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'M PLUS 1', sans-serif;
     font-style: italic;
     margin: auto;
     font-weight: normal;
     text-align: center;
-    font-size: 25px;
-
+    font-size: 16pt;
 }

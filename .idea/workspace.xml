@@ -25,6 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638046714683</updated>
-      <workItem from="1638046716024" duration="5583000" />
+      <workItem from="1638046716024" duration="23142000" />
     </task>
     <servers />
   </component>
@@ -46,9 +47,9 @@
       <screen x="0" y="23" width="1792" height="1008" />
     </state>
     <state x="1009" y="243" key="run.anything.popup/0.23.1792.1008@0.23.1792.1008" timestamp="1638050393293" />
-    <state x="1009" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1638054448779">
+    <state x="1009" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1638055512848">
       <screen x="0" y="23" width="1792" height="1008" />
     </state>
-    <state x="1009" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1792.1008@0.23.1792.1008" timestamp="1638054448779" />
+    <state x="1009" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1792.1008@0.23.1792.1008" timestamp="1638055512848" />
   </component>
 </project>
