@@ -52,13 +52,6 @@ body {
     background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
-    padding: 60px;
-    margin: auto;
-    max-width: 900px;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 150px);
 }
 
 h1, h3 {
@@ -86,16 +79,31 @@ ul {
     padding: 0;
 }
 
+#background {
+    background-color: RGBA(255,255,255,0.5);
+    border-radius: 20px;
+    border-style: dot-dash;
+    border-color: #605F73;
+    border-width: 10px;
+    padding: 60px;
+    margin: 20px;
+    max-width: 900px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 150px);
+}
+
 /*h1*/
 #character-title {
-    padding: 20px 10px 5px 10px;
+    padding: 25px;
     margin: auto;
-    border-width: 5px;
+    border-width: 8px;
     border-style: double;
     text-align: center;
-    color: #F2AF88;
-    background-color: #605F73;
-    border-radius: 5px;
+    color: #f2f0f2;
+    background-color: #3B8DBF;
+    border-radius: 50%;
     font-size: 40pt;
     grid-column-start: 4;
     grid-row-start: -7;
@@ -110,7 +118,6 @@ ul {
     grid-column-end: 3;
     grid-row-end: 6;
     display: flex;
-    grid-gap: 20px;
     flex-direction: column;
 }
 
@@ -121,9 +128,17 @@ ul {
     justify-items: center;
     color: black;
     border-color: #3B8DBF;
-    margin: 20px auto auto 20px;
+    margin: auto;
     font-family: 'M PLUS 1', sans-serif;
     padding: 10px 20px 10px 20px;
+}
+
+#main-block {
+
+}
+
+.paragraph {
+
 }
 
 /* h3 */
@@ -143,7 +158,7 @@ ul {
     border-radius: 5px;
     border-style: double;
     border-color: black;
-    border-width: 4px;
+    border-width: 8px;
     color: #D98977;
 }
 
@@ -158,7 +173,7 @@ ul {
     grid-column-end: 4;
     font-family: 'M PLUS 1', sans-serif;
     font-style: italic;
-    margin: 10px;
+    margin: auto;
     font-weight: normal;
     text-align: center;
     font-size: 16pt;
