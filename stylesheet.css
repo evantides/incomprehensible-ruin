@@ -48,29 +48,44 @@ COLORS:
 /*    border-width: thin;*/
 /*}*/
 
+* {
+
+}
+
 body {
     background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
     color: #605F73;
-    font-size: 20pt;
+    padding: 6px;
+    font-size: 15pt;
 }
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
     color: black;
-    padding: 0;
+    padding: 5px 0; /* if you want indents, add 10 to the left (last of four) */
     margin: auto;
     text-align: justify;
+}
+
+li {
+    margin-left: 5px;
+    margin-bottom: 10px;
+
 }
 
 ul {
@@ -80,41 +95,37 @@ ul {
 }
 
 #background {
-    background-color: RGBA(255,255,255,0.5);
-    border-radius: 20px;
-    border-style: dot-dash;
-    border-color: #605F73;
-    border-width: 10px;
-    padding: 60px;
+    background-color: rgba(0, 59, 141, 0.7);
+    padding: 30px;
     margin: 20px;
+    border-width: 2px;
+    border-radius: 5px;
     max-width: 900px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 150px);
+    grid-template-columns: repeat(5, 130px);
+    grid-template-rows: repeat(6, 130px);
 }
 
 /*h1*/
 #character-title {
-    padding: 25px;
+    padding: 10px;
     margin: auto;
-    border-width: 8px;
-    border-style: double;
     text-align: center;
-    color: #f2f0f2;
-    background-color: #3B8DBF;
-    border-radius: 50%;
+    color: #605F73;
     font-size: 40pt;
+    font-style: normal;
     grid-column-start: 4;
     grid-row-start: -7;
     grid-column-end: 6;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Nanum Gothic Coding', monospace;;
 }
 
 #basic-asks {
     font-family: 'M PLUS 1', sans-serif;
     grid-column-start: 1;
     grid-row-start: 2;
+    margin: 0;
     grid-column-end: 3;
     grid-row-end: 6;
     display: flex;
@@ -125,16 +136,17 @@ ul {
     grid-row-start: 2;
     grid-column-start: 3;
     grid-column-end: 6;
-    justify-items: center;
     color: black;
-    border-color: #3B8DBF;
-    margin: auto;
+    margin: 0;
     font-family: 'M PLUS 1', sans-serif;
     padding: 10px 20px 10px 20px;
 }
 
 #main-block {
-
+    grid-area: span;
+    margin: auto;
+    grid-column: 4;
+    grid-row: 4;
 }
 
 .paragraph {
@@ -150,31 +162,33 @@ ul {
 
 /*div*/
 .box {
-    padding: 20px;
-    grid-gap: 10px;
-    display: grid;
-    margin: auto;
-    background-color:  #f2f0f2;
-    border-radius: 5px;
-    border-style: double;
+    padding: 10px;
+    background-color: lemonchiffon;
     border-color: black;
-    border-width: 8px;
-    color: #D98977;
+    color: #3B8DBF;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: double;
+}
+
+blockquote{
+    display: flex;
+    padding: 5px;
+    align-items: end;
+    justify-content: center;
+    font-family: 'M PLUS 1', sans-serif;
+    font-style: italic;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    font-size: 10pt;
 }
 
 /*blockquote*/
 .quotes {
-    color: #605F73;
-    display: flex;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;
+    color: #3B8DBF;
     grid-column-start: 1;
     grid-column-end: 4;
-    font-family: 'M PLUS 1', sans-serif;
-    font-style: italic;
-    margin: auto;
-    font-weight: normal;
-    text-align: center;
-    font-size: 16pt;
+    margin: 0;
+    align-self: end;
 }
