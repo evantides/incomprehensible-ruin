@@ -34,6 +34,7 @@ COLORS:
 .light-orange { color: #F2AF88; }
 .salmon-red { color: #D98977; }
 
+.magenta-thing { rgba(201,124,134,255); }
 ~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -68,7 +69,7 @@ h1, h3 {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: #605F73;
+    color: #896876;
     padding: 6px;
     font-size: 15pt;
 }
@@ -95,12 +96,13 @@ ul {
 }
 
 #background {
-    background-color: rgba(0, 59, 141, 0.7);
-    padding: 30px;
-    margin: 20px;
+    background-color: rgba(0, 79, 141, 0.7);
+    border-style: solid;
     border-width: 2px;
     border-radius: 5px;
     max-width: 900px;
+    padding: 30px;
+    margin: 20px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(5, 130px);
@@ -112,13 +114,28 @@ ul {
     padding: 10px;
     margin: auto;
     text-align: center;
-    color: #605F73;
+    color: steelblue;
     font-size: 40pt;
+    background-color: antiquewhite;
     font-style: normal;
+    font-family: 'Nanum Gothic Coding', monospace;;
     grid-column-start: 4;
     grid-row-start: -7;
     grid-column-end: 6;
+}
+
+#last-name {
+    padding:10px;
+    text-align: center;
+    color: steelblue;
+    font-size: 40px;
+    background-color: antiquewhite;
+    font-style: normal;
     font-family: 'Nanum Gothic Coding', monospace;;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    margin: 0;
 }
 
 #basic-asks {
@@ -129,6 +146,7 @@ ul {
     grid-column-end: 3;
     grid-row-end: 6;
     display: flex;
+    background-color: antiquewhite;
     flex-direction: column;
 }
 
@@ -143,10 +161,11 @@ ul {
 }
 
 #main-block {
-    grid-area: span;
-    margin: auto;
-    grid-column: 4;
-    grid-row: 4;
+    margin: 0;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 6;
+    grid-row-end: 7;
 }
 
 .paragraph {
@@ -165,13 +184,13 @@ ul {
     padding: 10px;
     background-color: lemonchiffon;
     border-color: black;
-    color: #3B8DBF;
+    color: steelblue;
     border-radius: 3px;
     border-width: 1px;
     border-style: double;
 }
 
-blockquote{
+blockquote {
     display: flex;
     padding: 5px;
     align-items: end;
@@ -186,7 +205,6 @@ blockquote{
 
 /*blockquote*/
 .quotes {
-    color: #3B8DBF;
     grid-column-start: 1;
     grid-column-end: 4;
     margin: 0;

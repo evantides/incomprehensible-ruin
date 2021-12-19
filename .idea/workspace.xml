@@ -57,6 +57,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +76,7 @@
       <workItem from="1638046716024" duration="29538000" />
       <workItem from="1638317867314" duration="984000" />
       <workItem from="1638547524797" duration="326000" />
-      <workItem from="1638566942215" duration="9485000" />
+      <workItem from="1638566942215" duration="15471000" />
     </task>
     <servers />
   </component>
@@ -95,6 +96,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="397" y="164" key="SettingsEditor" timestamp="1639888843565">
+      <screen x="0" y="23" width="1792" height="1006" />
+    </state>
+    <state x="397" y="164" key="SettingsEditor/0.23.1792.1006@0.23.1792.1006" timestamp="1639888843565" />
     <state x="1009" y="243" key="run.anything.popup" timestamp="1638050393293">
       <screen x="0" y="23" width="1792" height="1008" />
     </state>
