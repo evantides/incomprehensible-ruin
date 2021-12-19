@@ -76,7 +76,7 @@ h1, h3 {
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 10pt;
+    font-size: 9pt;
     color: black;
     padding: 5px 0; /* if you want indents, add 10 to the left (last of four) */
     margin: auto;
@@ -86,7 +86,6 @@ p {
 li {
     margin-left: 5px;
     margin-bottom: 10px;
-
 }
 
 ul {
@@ -98,8 +97,8 @@ ul {
 #background {
     background-color: rgba(0, 79, 141, 0.7);
     border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
+    border-width: 1px;
+    border-radius: 2px;
     max-width: 900px;
     padding: 30px;
     margin: 20px;
@@ -112,20 +111,19 @@ ul {
 /*h1*/
 #character-title {
     padding: 10px;
-    margin: auto;
+    margin: 0;
     text-align: center;
     color: steelblue;
-    font-size: 40pt;
+    font-size: 35pt;
     background-color: antiquewhite;
-    font-style: normal;
-    font-family: 'Nanum Gothic Coding', monospace;;
+    font-family: 'Nanum Gothic Coding', monospace;
     grid-column-start: 4;
     grid-row-start: -7;
     grid-column-end: 6;
 }
 
 #last-name {
-    padding:10px;
+    padding: 10px;
     text-align: center;
     color: steelblue;
     font-size: 40px;
@@ -175,8 +173,14 @@ ul {
 /* h3 */
 .info-title {
     display: block;
-    grid-column-start: 2;
     margin: auto;
+}
+
+.sub-title {
+    font-size: 10pt;
+    color: steelblue;
+    font-family: 'M PLUS 1', sans-serif;
+
 }
 
 /*div*/
