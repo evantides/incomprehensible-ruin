@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a05a9375-8461-498c-b0af-5952dd3e1f35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,9 @@
       <workItem from="1638046716024" duration="29538000" />
       <workItem from="1638317867314" duration="984000" />
       <workItem from="1638547524797" duration="326000" />
-      <workItem from="1638566942215" duration="20174000" />
+      <workItem from="1638566942215" duration="21241000" />
+      <workItem from="1639958254096" duration="29000" />
+      <workItem from="1642284219306" duration="267000" />
     </task>
     <servers />
   </component>
@@ -100,9 +100,10 @@
       <screen x="0" y="23" width="1792" height="1006" />
     </state>
     <state x="397" y="164" key="SettingsEditor/0.23.1792.1006@0.23.1792.1006" timestamp="1639888843565" />
-    <state x="1009" y="243" key="run.anything.popup" timestamp="1638050393293">
-      <screen x="0" y="23" width="1792" height="1008" />
+    <state x="1009" y="243" key="run.anything.popup" timestamp="1642284226979">
+      <screen x="0" y="23" width="1792" height="1006" />
     </state>
+    <state x="1009" y="243" key="run.anything.popup/0.23.1792.1006@0.23.1792.1006" timestamp="1642284226979" />
     <state x="1009" y="243" key="run.anything.popup/0.23.1792.1008@0.23.1792.1008" timestamp="1638050393293" />
     <state x="1009" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1638217094136">
       <screen x="0" y="23" width="1792" height="1008" />
